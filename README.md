@@ -43,14 +43,14 @@ To begin, create your dataset following the format specified in `train.csv`. Ens
    ``` 
     Note: You can customize the desired dataset name by editing `line 15` in the `preprocess-dataset.py` file.
 
-3. Fine-tune your dataset
-   ```sh
-   python3 finetune_llama_v2.py --new_model nghiem_model_15-9 --dataset_name tuankg1028/nghiem_dataset_15-9
-   ```
-     Note: 
-     
-     `--dataset_name` represents the name of the dataset on HF that you want to use for training.
-     
-     `--new_model` specifies the name for the new model to be created on HF.
+#### Step 3. Fine-tune your dataset
+```sh
+python3 finetune_llama_v2.py --new_model nghiem_model_15-9 --dataset_name tuankg1028/nghiem_dataset_15-9
+```
+  Note: 
+  
+  `--dataset_name` represents the name of the dataset on HF that you want to use for training.
+  
+  `--new_model` specifies the name for the new model to be created on HF.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
